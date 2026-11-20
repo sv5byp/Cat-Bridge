@@ -36,6 +36,12 @@ If frequency control or PTT does not work in Logger32, resolve that radio/interf
 
 The two network protocols are recognized automatically per connection. For OmniRig, a clean first installation sets up the adapter automatically. If another OmniRig route already exists, Cat Bridge asks once before changing the current-user route and retains its previous configuration for restoration. Close OmniRig applications before accepting that change; if they were open, restart Cat Bridge after closing them to complete setup. Updating the same permanent folder preserves existing activation.
 
+## Start automatically with Logger32
+
+**Cat Bridge is a utility for Logger32.** To have it start automatically whenever Logger32 starts, add `SV5BYP's Cat Bridge.exe` to Logger32's utility program list and tick its entry in Logger32's **Utilities menu**.
+
+Use the full path to the EXE in the permanent folder where you extracted Cat Bridge. Keep that folder in the same location when updating so the saved utility entry continues to point to the program. On the next Logger32 startup, Cat Bridge will launch automatically and start minimized.
+
 ## PTT and shared control
 
 - **PTT…** offers Logger32 PTT, a separate physical serial port with DTR or RTS, or Off. The optional PTT port must be separate from Logger32's CAT port.
