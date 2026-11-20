@@ -1,0 +1,23 @@
+{
+  "repository": "sv5byp/Cat-Bridge",
+  "tag": "v3.31",
+  "title": "SV5BYP's Cat Bridge 3.31 \u2014 Logger32 utility",
+  "body": "SV5BYP's Cat Bridge is a portable Logger32 utility for FT8, SSTV and other applications using Ham Radio Deluxe, OmniRig Rig 1 or Hamlib NET rigctl.\n\nDownload **SV5BYP-Cat-Bridge-3.31.zip**, extract all files into one permanent folder and run **SV5BYP's Cat Bridge.exe**. No installer is required. For an existing installation, close the Bridge and its client applications, retain a backup, and replace all nine program files in the same folder. Keep personal files and activation backups. Logger32 can remain open.\n\nThe managed programs target .NET Framework 4.0 APIs. Secure online updates require TLS 1.2 support; older systems may need a newer .NET Framework or manual ZIP updates. Configure the physical radio in Logger32. Working frequency control and PTT command acknowledgement do not by themselves establish physical radio transmission.\n\nThe `.bin` and `.sig` files are signed updater assets. Ordinary users should download the ZIP. English and Greek instructions and third-party notices are included.\n",
+  "assets": [
+    {
+      "name": "Cat-Bridge-update.bin",
+      "sha256": "d1bf8ee1589e3a0d4949d2fcc6cfbd06ea3478d2fd897956e7844719c779b8c5",
+      "size": 1514880
+    },
+    {
+      "name": "Cat-Bridge-update.sig",
+      "sha256": "00546622fc62221fddba86ebf716b1e844e015dcd1398aea563ab18bb1186a3e",
+      "size": 384
+    },
+    {
+      "name": "SV5BYP-Cat-Bridge-3.31.zip",
+      "sha256": "467e6105cbf2cbf5012ed94ee4b67f4e8cde6a2efd2ad36da6a24638de7faadf",
+      "size": 761476
+    }
+  ]
+}
