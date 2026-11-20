@@ -1,0 +1,23 @@
+{
+  "repository": "sv5byp/Cat-Bridge",
+  "tag": "v3.32",
+  "title": "SV5BYP's Cat Bridge 3.32 — Logger32 utility",
+  "body": "SV5BYP's Cat Bridge is a portable Logger32 utility for FT8, SSTV and other applications using Ham Radio Deluxe, OmniRig Rig 1 or Hamlib NET rigctl.\n\nDownload **SV5BYP-Cat-Bridge-3.32.zip**, extract all files into one permanent folder and run **SV5BYP's Cat Bridge.exe**. No installer is required. For an existing installation, close Bridge and its client applications, retain a backup, and replace all nine program files in the same folder. Keep personal files, diagnostic reports and activation backups. Logger32 can remain open.\n\nLocal diagnostics are created automatically, independently of consent to send. **Automatic error reports** in the small tools menu is **off by default**. After explicit consent, minimized error summaries can be sent to the developer's GlitchTip project in the EU. Complete logs, callsigns, contacts, passwords, usernames, file paths and device identifiers are excluded. The full local diagnostic file is never uploaded automatically. Turning sending off retains local diagnostics. Included English and Greek instructions describe the data, limits and controls.\n\nManaged programs target .NET Framework 4.0 APIs. Secure online updates and optional sending require TLS 1.2; older systems may need a supported newer .NET Framework or manual ZIP updates. Configure the physical radio in Logger32. Software tests use simulated hardware; confirm operation with the actual radio and interface.\n\nThe `.bin` and `.sig` files are signed updater assets. Ordinary users should download the ZIP. Third-party notices are included.\n",
+  "assets": [
+    {
+      "name": "Cat-Bridge-update.bin",
+      "sha256": "08633b739915ad8c279f1c732eba44a0346ac3438d2ae45a3e4906a35ca1eefa",
+      "size": 1571257
+    },
+    {
+      "name": "Cat-Bridge-update.sig",
+      "sha256": "2f04f63bd76251008c18e729feadad4412ba129213f3690a0850293077397c98",
+      "size": 384
+    },
+    {
+      "name": "SV5BYP-Cat-Bridge-3.32.zip",
+      "sha256": "b9e5c85f86ad7af17d14978b204e3d9bc52b36f41fabe3b52fffb6039e94adec",
+      "size": 784817
+    }
+  ]
+}
