@@ -10,9 +10,20 @@ Cat Bridge connects Logger32 to FT8, SSTV and other Windows applications that su
 
 Choose the full **SV5BYP-Cat-Bridge-…zip** under **Assets**. The `.bin` and `.sig` files are for the built-in updater and do not need to be opened manually.
 
+## Before using Cat Bridge
+
+**First confirm that both frequency control and PTT already work between Logger32 and your radio.**
+
+1. Turn on the radio, connect it to the computer, and configure the correct radio model and connection in Logger32.
+2. Confirm that Logger32 reads the radio's frequency correctly and that changing the frequency in Logger32 tunes the radio.
+3. Open Logger32's **Soundcard Data** window and check PTT using the configured radio/PTT interface. Confirm on the physical radio that it enters transmit when PTT is activated and returns to receive when PTT is released. A displayed acknowledgement alone does not confirm physical transmission.
+4. Once these checks pass, start Cat Bridge and connect your FT8, SSTV or other application to it.
+
+If frequency control or PTT does not work in Logger32, resolve that radio/interface configuration first. Cat Bridge relies on this working connection to link Logger32 with the other applications.
+
 ## Getting started
 
-1. Configure your radio in Logger32 and confirm that Logger32 reads and changes its frequency correctly.
+1. Complete the Logger32 frequency and PTT checks above.
 2. Extract **all** files from the ZIP into one permanent folder, for example `C:\CatBridge`. Do not run inside the ZIP.
 3. Run `SV5BYP's Cat Bridge.exe`. It starts minimized and connects to Logger32 automatically.
 4. Keep your preferred connection type in the other application:
