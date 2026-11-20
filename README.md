@@ -61,6 +61,14 @@ Only the running Cat Bridge installation is updated. Saved PTT choices and OmniR
 
 **First upgrade from 3.28 or earlier:** download and extract the complete new ZIP manually. Close the old Bridge and its client applications, then replace all release files in the same permanent folder. Do not remove existing activation backups or personal files. Future releases can then use the built-in updater.
 
+## Antivirus compatibility
+
+Some antivirus products may flag or block Cat Bridge. Blocking can prevent startup, interrupt CAT/PTT communication, or prevent optional error reports from being sent.
+
+If this happens, review the antivirus detection and verify that the affected file matches the official Cat Bridge release. A targeted scanning exception for the verified `SV5BYP's Cat Bridge.exe` may be needed. Keep antivirus protection enabled and limit the exception to the verified program file. If connections or report sending remain blocked, also review the antivirus network protection settings for Cat Bridge. Automatic error reporting still requires the user's consent.
+
+Suspected false detections can be submitted to the antivirus vendor for review; for AVG, use its [official false-positive report form](https://www.avg.com/en-us/report-false-positive).
+
 ## Compatibility and help
 
 Configure the actual radio only in Logger32. Support depends on its working driver and PTT configuration; this utility does not certify every radio model. The bridge provides the existing primary/simplex frequency and PTT functions. OmniRig Rig 2, split operation and raw/custom CAT commands are outside that interface. Use **Mode None / Split None** in clients that offer these settings, and select the operating mode in Logger32 or on the radio.
