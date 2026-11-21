@@ -1,0 +1,247 @@
+{
+  "repository": "sv5byp/Cat-Bridge",
+  "tag": "v3.36",
+  "title": "SV5BYP's Cat Bridge 3.36 — Logger32 utility",
+  "body": "SV5BYP's Cat Bridge is a portable Logger32 utility for FT8, SSTV and other applications using Ham Radio Deluxe, OmniRig Rig 1 or Hamlib NET rigctl.\n\nDownload **SV5BYP-Cat-Bridge-3.36.zip**, extract all nine files into a permanent folder and run **SV5BYP's Cat Bridge.exe**. No installer is required. For an upgrade, close Bridge and its client applications, keep a backup and replace all nine program files in the same folder. Keep personal files, diagnostic reports and activation backups. Logger32 may remain open.\n\nFirst verify physical radio frequency control and PTT from Logger32's Soundcard Data window. Configure the radio in Logger32. Cat Bridge can start automatically through Logger32's Utilities menu.\n\nPTT is independent of mode recognition, including DIG, USB, LSB, FM, AM and unknown or empty mode indications. Known modes are translated and unknown sidebands remain unspecified. Select the physical mode in Logger32 or on the radio; use Mode None / no automatic mode changes in clients when available. Existing ownership and PTT-confirmation protections remain.\n\nThe cat is green when Logger32 and at least one application are connected, including a passive reader, and blue when either side disconnects. Service-label colors separately identify the program controlling CAT/PTT.\n\nLocal diagnostic reports are always available. Automatic error sending is optional and off by default; the complete diagnostic file is never uploaded automatically. Included instructions explain privacy, compatibility and antivirus interference. Managed programs target .NET Framework 4.0 APIs; secure online functions require TLS 1.2. Software checks use simulated hardware; verify your actual radio/interface.\n\nThe `.bin` and `.sig` files are signed updater assets. Ordinary users should download the ZIP. Third-party notices are included.\n",
+  "assets": [
+    {
+      "name": "Cat-Bridge-update.bin",
+      "sha256": "144f38a928f092f15d1376b95da03556cf1d5691408302b49e46815c5e84c398",
+      "size": 1786113,
+      "transport": "zlib",
+      "chunks": [
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part000",
+          "sha256": "ae9f874c5bca7340189232d23994e9cc68e3d6825697589ad2f4563e38a59327",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part001",
+          "sha256": "6a645109668e204f6a93b7e8f3ad8ffa0a8c562d1b89ca03843a80ba2c20f736",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part002",
+          "sha256": "2a0d89401e1c922544ee2d1d6bef74dd95434fcc2c455e34eb1aa8ae28362652",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part003",
+          "sha256": "e5543c648032968c280921bc90b8fb79c856d72530c7b8fbecb7c250831b2c30",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part004",
+          "sha256": "1a128413aec8c94f77718d30101c3eacea6316539540020943297f43dd147854",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part005",
+          "sha256": "57a2ae524f24bdb6e4c9b5481d98e8d5678c70710e99ce002ab7dde047b41760",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part006",
+          "sha256": "606f2c1c7b4fbeecfeef748b7503022456e973f03cd892bc1bbb33885235a240",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part007",
+          "sha256": "08a3e63f9279f14ca628ae5c129a6af33ebe381f0f2adc817546cb8564c59b45",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part008",
+          "sha256": "6ea3abad24a8998c1ea504d4b217d21de588f5677fe6f922ac20e8bea30dd339",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part009",
+          "sha256": "d83ebd69af751fcd4a68f893e9253e2e9d53d346fd3de174d0f4eaf3819f4a0d",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part010",
+          "sha256": "bb2cb68f93dfa33a0b827582f68d0e3248d1789d5833cf15f1c2f53880bedd90",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part011",
+          "sha256": "65c4207d5349a617b6bbb0dcbd0f2d0f3f72102171b3a4f216a12b3387acfa91",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part012",
+          "sha256": "a46417dfe3a03b86c0c8126c6f6ca92498fe2b9a5865b2d99dcc37927b0672bf",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part013",
+          "sha256": "96d3285d3185173e61100525a72143149bc47fd03a5ca804cc8228b9fe5fbf9d",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part014",
+          "sha256": "333269908bc29151dd541c5008100f29c0c326e3952d1ad490b83bf30986fb17",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part015",
+          "sha256": "5927e39a704f8292f08d5e52ac7d4b421dd544fbb37ec2406c02a249a5b990af",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part016",
+          "sha256": "b8c02123570d9b00bcc33544dec598f045bd73f84e29045b3bc7c430ada4b488",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part017",
+          "sha256": "f1a953541b93721569e2ac324efd6c7b52a564660a39ad91ae50c8a8d173873e",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part018",
+          "sha256": "c61839707f92aabbc4be44969d00473b0e3bcf92b0b69a7b9a691c641a11f91e",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part019",
+          "sha256": "114a01918cdcf19657e3e44a57532df59aa69de5da14160ee81f85408053a4a0",
+          "size": 48000
+        },
+        {
+          "path": "chunks/Cat-Bridge-update.bin.part020",
+          "sha256": "737676eae7b525739f6b047248090336cc359dcc43427e8f84cb2bb29b134596",
+          "size": 28517
+        }
+      ]
+    },
+    {
+      "name": "Cat-Bridge-update.sig",
+      "sha256": "e5ab6d19f668c9602a1ac5b1d75277278c6443989cfb3dc4b1a9eb3535052343",
+      "size": 384,
+      "transport": "raw",
+      "chunks": [
+        {
+          "path": "chunks/Cat-Bridge-update.sig.part000",
+          "sha256": "e5ab6d19f668c9602a1ac5b1d75277278c6443989cfb3dc4b1a9eb3535052343",
+          "size": 384
+        }
+      ]
+    },
+    {
+      "name": "SV5BYP-Cat-Bridge-3.36.zip",
+      "sha256": "4096dbd2065e423787e4dca69eed37611cda4e3657e6ae541a41f4480f608adc",
+      "size": 988556,
+      "transport": "raw",
+      "chunks": [
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part000",
+          "sha256": "834a8ffc89a402e6bc6ac72f38589fdfa32962f6b94b7132f97a5f251342372d",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part001",
+          "sha256": "22133b9f03afdc8c6084f97c564ce968e3241ceddbc54f9da009ca05abbfd721",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part002",
+          "sha256": "c9443699873e0c0345e1110e84c9483ea01787cb7689a925cf5fa7382525f764",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part003",
+          "sha256": "d47942f082b220718b43b0398487cd2d423e8c81087155994850aac3958517d2",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part004",
+          "sha256": "a1fdbea0a71f58baaf59d94a5c2fc0d87d21243b1ac3b8d4a775ed0ab62a6a35",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part005",
+          "sha256": "4796471b47ae6b432341dc08ab243a92e7efd32fb9b06c1874762555bf708644",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part006",
+          "sha256": "00652e83d101d2affc8dc39402b561df78824e0e1676c0be097fdb8d6dadf074",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part007",
+          "sha256": "1a251b05d1de008d1365509bd64092dde91c418c595b573353eaf98d24b5a394",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part008",
+          "sha256": "7a257838d30ea76ba80fc58ea608e62a8fc625bd88d84b2943545d37dfdd354a",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part009",
+          "sha256": "6b2332f074aeea5f87c27c29612357efcfe0e1eab326bcd8a8d45f90297898a9",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part010",
+          "sha256": "c5f5a538296fdbd34cbf5c1a69af126ebd76ab75af436abc71cf2f3c709cf679",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part011",
+          "sha256": "7cc25e7baec38bda8b458dd48a929e6d22a30bb151ffe20ec4de0a04108026fe",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part012",
+          "sha256": "276a2448d9a9788bad775d4b0e5a967aad5d6bfd6f8f96f9ed4a0cbf8b3c884a",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part013",
+          "sha256": "71a0333a948a70853c91faccf9e55dd39c31ec991882fe2a63f67d902f61a962",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part014",
+          "sha256": "cd8c1892f3973ae07a561d626ed9c2be39b9bc4fc870ed9c356c3067bcb0a07e",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part015",
+          "sha256": "9eb358f8e4269811ac35ae16f9735bcbf054f207ea9aed04c36969ee95c39631",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part016",
+          "sha256": "c0a9b1b3cf76d20898cd66729f650374be3ba5099c344d6262457d79548a9628",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part017",
+          "sha256": "63fe84295ee88bc49198a10e88fff2fded195cc553b36b17735143b296cc70be",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part018",
+          "sha256": "60a0c6b313315f3dc337c78980c5cd6a213d3d45f7af57c1e62ba5b0b8ce4cac",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part019",
+          "sha256": "800b59909e5229c2c7f4924e981389228a53e277ff6d1378eb4ebe24471f1a37",
+          "size": 48000
+        },
+        {
+          "path": "chunks/SV5BYP-Cat-Bridge-3.36.zip.part020",
+          "sha256": "78335d2eb7581d70eef78069e9439861b4e5ef5b8a87e0dbf008b9f745b9ad84",
+          "size": 28556
+        }
+      ]
+    }
+  ]
+}
