@@ -44,6 +44,8 @@ Use the full path to the EXE in the permanent folder where you extracted Cat Bri
 
 ## PTT and shared control
 
+PTT requests are independent of mode recognition: DIG, USB, LSB, FM, AM and unknown or empty mode indications do not by themselves block PTT. Known mode names are translated between the protocols; an unknown digital sideband stays unspecified. Choose the physical mode in Logger32 or on the radio. In clients, use **Mode None / no automatic mode change** and **Split None** when available. A client may impose its own mode policy. Physical mode switching is outside this interface; unsupported mode changes return an error without closing the bridge session.
+
 - **PTT…** offers Logger32 PTT, a separate physical serial port with DTR or RTS, or Off. The optional PTT port must be separate from Logger32's CAT port.
 - Working frequency control alone does not establish PTT support. Logger32 must accept its external PTT requests, or an appropriate separate PTT interface is needed.
 - Reading frequency does not reserve control. The first actual frequency change or PTT request takes control until that application's connection closes. Other applications may continue reading.
@@ -77,4 +79,5 @@ Configure the actual radio only in Logger32. Support depends on its working driv
 The panel and controls are in English. English and Greek instructions are included in the download. `CatBridge-Diagnostic.txt` is created locally beside the program, independently of consent to send reports. If that folder cannot be written, diagnostics fall back to `%LOCALAPPDATA%\SV5BYP\Cat Bridge\Diagnostics`. Automatic error sending is optional and off by default; the full diagnostic file is never uploaded automatically.
 
 Cat Bridge is an independent SV5BYP utility, not an official product of Logger32, Ham Radio Deluxe, OmniRig or Hamlib. No GitHub account is required to download a public release.
+
 
