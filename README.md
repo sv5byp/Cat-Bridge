@@ -47,7 +47,8 @@ Use the full path to the EXE in the permanent folder where you extracted Cat Bri
 - **PTT…** offers Logger32 PTT, a separate physical serial port with DTR or RTS, or Off. The optional PTT port must be separate from Logger32's CAT port.
 - Working frequency control alone does not establish PTT support. Logger32 must accept its external PTT requests, or an appropriate separate PTT interface is needed.
 - Reading frequency does not reserve control. The first actual frequency change or PTT request takes control until that application's connection closes. Other applications may continue reading.
-- Only the service that currently owns control is green. A passive reader remains neutral.
+- The **cat icon turns green when Logger32 and at least one application are connected**, including a passive reader. It returns to blue when either side disconnects. Listener readiness or OmniRig registration alone does not make it green.
+- The service labels separately show who owns CAT/PTT control: only that service label is green. A passive reader leaves those labels neutral.
 - The continuous PTT limit is **three minutes** for every connection type.
 - Ordinary Logger32 connection failures retry automatically without an attempt limit. Recovery does not automatically replay a previous transmission.
 
@@ -73,6 +74,7 @@ Suspected false detections can be submitted to the antivirus vendor for review; 
 
 Configure the actual radio only in Logger32. Support depends on its working driver and PTT configuration; this utility does not certify every radio model. The bridge provides the existing primary/simplex frequency and PTT functions. OmniRig Rig 2, split operation and raw/custom CAT commands are outside that interface. Use **Mode None / Split None** in clients that offer these settings, and select the operating mode in Logger32 or on the radio.
 
-The panel and controls are in English. English and Greek instructions are included in the download. Full diagnostics are saved under `%LOCALAPPDATA%\SV5BYP\Cat Bridge\Diagnostics`.
+The panel and controls are in English. English and Greek instructions are included in the download. `CatBridge-Diagnostic.txt` is created locally beside the program, independently of consent to send reports. If that folder cannot be written, diagnostics fall back to `%LOCALAPPDATA%\SV5BYP\Cat Bridge\Diagnostics`. Automatic error sending is optional and off by default; the full diagnostic file is never uploaded automatically.
 
 Cat Bridge is an independent SV5BYP utility, not an official product of Logger32, Ham Radio Deluxe, OmniRig or Hamlib. No GitHub account is required to download a public release.
+
